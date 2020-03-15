@@ -15,7 +15,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.Slot;
-import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.InventoryBasic;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Container;
@@ -30,13 +29,12 @@ import java.io.IOException;
 
 @Elementsvb_mod.ModElement.Tag
 public class MCreatorVBCraftingTableGUI extends Elementsvb_mod.ModElement {
-	public static int GUIID = 1;
+	public static int GUIID = 2;
 	public static HashMap guiinventory = new HashMap();
-	public static IInventory vbcraftingtable;
 	public static IInventory inherited;
 
 	public MCreatorVBCraftingTableGUI(Elementsvb_mod instance) {
-		super(instance, 39);
+		super(instance, 43);
 	}
 
 	@Override
@@ -61,15 +59,29 @@ public class MCreatorVBCraftingTableGUI extends Elementsvb_mod.ModElement {
 				inherited = (IInventory) ent;
 			else
 				inherited = new InventoryBasic("", true, 9);
-			vbcraftingtable = new InventoryBasic("vbcraftingtable", true, 9);
-			guiinventory.put("vbcraftingtable", vbcraftingtable);
-			this.addSlotToContainer(new Slot(vbcraftingtable, 0, 25, 23) {
+			this.addSlotToContainer(new Slot(inherited, 0, 12, 16) {
 			});
-			this.addSlotToContainer(new Slot(vbcraftingtable, 1, 152, 62) {
+			this.addSlotToContainer(new Slot(inherited, 1, 31, 16) {
 			});
-			this.addSlotToContainer(new Slot(vbcraftingtable, 2, 26, 51) {
+			this.addSlotToContainer(new Slot(inherited, 2, 50, 16) {
 			});
-			this.addSlotToContainer(new Slot(vbcraftingtable, 3, 125, 35) {
+			this.addSlotToContainer(new Slot(inherited, 9, 134, 18) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			});
+			this.addSlotToContainer(new Slot(inherited, 3, 12, 36) {
+			});
+			this.addSlotToContainer(new Slot(inherited, 4, 31, 36) {
+			});
+			this.addSlotToContainer(new Slot(inherited, 5, 50, 35) {
+			});
+			this.addSlotToContainer(new Slot(inherited, 6, 12, 55) {
+			});
+			this.addSlotToContainer(new Slot(inherited, 7, 31, 54) {
+			});
+			this.addSlotToContainer(new Slot(inherited, 8, 50, 55) {
 			});
 			int si;
 			int sj;
@@ -92,18 +104,18 @@ public class MCreatorVBCraftingTableGUI extends Elementsvb_mod.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 4) {
-					if (!this.mergeItemStack(itemstack1, 4, this.inventorySlots.size(), true)) {
+				if (index < 10) {
+					if (!this.mergeItemStack(itemstack1, 10, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 4, false)) {
-					if (index < 4 + 27) {
-						if (!this.mergeItemStack(itemstack1, 4 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 10, false)) {
+					if (index < 10 + 27) {
+						if (!this.mergeItemStack(itemstack1, 10 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 4, 4 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 10, 10 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -206,7 +218,6 @@ public class MCreatorVBCraftingTableGUI extends Elementsvb_mod.ModElement {
 		@Override
 		public void onContainerClosed(EntityPlayer playerIn) {
 			super.onContainerClosed(playerIn);
-			InventoryHelper.dropInventoryItems(world, new BlockPos(x, y, z), vbcraftingtable);
 		}
 
 		private void slotChanged(int slotid, int ctype, int meta) {
@@ -249,6 +260,8 @@ public class MCreatorVBCraftingTableGUI extends Elementsvb_mod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawTexturedModalRect(k, l, 0, 0, this.xSize, this.ySize);
 			zLevel = 100.0F;
+			this.mc.renderEngine.bindTexture(new ResourceLocation("vb_mod:textures/craft-arrow.png"));
+			this.drawTexturedModalRect(this.guiLeft + 90, this.guiTop + 21, 0, 0, 256, 256);
 		}
 
 		@Override
@@ -284,7 +297,7 @@ public class MCreatorVBCraftingTableGUI extends Elementsvb_mod.ModElement {
 			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 59, this.guiTop + 60, 50, 20, "Craft"));
+			this.buttonList.add(new GuiButton(0, this.guiLeft + 73, this.guiTop + 36, 50, 20, "Craft"));
 		}
 
 		@Override
@@ -409,7 +422,7 @@ public class MCreatorVBCraftingTableGUI extends Elementsvb_mod.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				MCreatorCraftNeckless.executeProcedure($_dependencies);
+				MCreatorVBCraftingTableProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

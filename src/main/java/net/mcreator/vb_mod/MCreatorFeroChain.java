@@ -34,7 +34,7 @@ public class MCreatorFeroChain extends Elementsvb_mod.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
-			maxStackSize = 1;
+			maxStackSize = 8;
 			setUnlocalizedName("ferochain");
 			setRegistryName("ferochain");
 			setCreativeTab(MCreatorVBMODTAB.tab);

@@ -134,11 +134,11 @@ public class MCreatorVBCraftingTable extends Elementsvb_mod.ModElement {
 	}
 
 	public static class TileEntityCustom extends TileEntityLockableLoot {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack> withSize(4, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack> withSize(10, ItemStack.EMPTY);
 
 		@Override
 		public int getSizeInventory() {
-			return 4;
+			return 10;
 		}
 
 		@Override

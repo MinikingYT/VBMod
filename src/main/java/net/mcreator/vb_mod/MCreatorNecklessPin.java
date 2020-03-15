@@ -34,7 +34,7 @@ public class MCreatorNecklessPin extends Elementsvb_mod.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
-			maxStackSize = 1;
+			maxStackSize = 8;
 			setUnlocalizedName("necklesspin");
 			setRegistryName("necklesspin");
 			setCreativeTab(MCreatorVBMODTAB.tab);

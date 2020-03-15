@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 1,
+    "ENTITY": 2,
     "DIMENSION": 1,
-    "ENTITY": 2
+    "GUI": 2
   },
   "mod_elements": [
     {
@@ -236,14 +236,6 @@
       "ids": {}
     },
     {
-      "name": "FeroChainRecipe",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "OFamoso",
       "type": "food",
       "sortid": 11,
@@ -369,16 +361,6 @@
       "ids": {}
     },
     {
-      "name": "VBCraftingTableGUI",
-      "type": "gui",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 1
-      }
-    },
-    {
       "name": "VBCraftingTableRecipe",
       "type": "recipe",
       "sortid": 40,
@@ -419,7 +401,7 @@
       }
     },
     {
-      "name": "CraftNeckless",
+      "name": "VBCraftingTableProcedure",
       "type": "procedure",
       "sortid": 42,
       "compiles": true,
@@ -444,6 +426,16 @@
             "type": "world"
           }
         ]
+      }
+    },
+    {
+      "name": "VBCraftingTableGUI",
+      "type": "gui",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
       }
     }
   ],
