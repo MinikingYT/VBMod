@@ -481,7 +481,7 @@
     "modName": "VB MOD",
     "version": "1.0.1",
     "author": "MinikingYT, FeroStar",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/MinikingYT/VBMod",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
