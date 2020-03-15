@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:FeroArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:FeroChain"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "feroarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

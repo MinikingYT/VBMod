@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:FeroArmor.helmet"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "Blocks.WOOL#14"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "feroarmorhelmetrecipe",
+    "namespace": "mod"
+  }
+}

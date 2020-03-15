@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:FeroArmor.legs"
+    },
+    "recipeSlots": [
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "CUSTOM:FeroCore"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "feroarmorleggingsrecipe",
+    "namespace": "mod"
+  }
+}

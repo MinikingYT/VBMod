@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vb_mod:blocks/ferostarium_ore",
+    "particle": "vb_mod:blocks/ferostarium_ore"
+  }
+}

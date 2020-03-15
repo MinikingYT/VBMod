@@ -1,0 +1,11 @@
+{
+  "_fv": 5,
+  "_type": "tab",
+  "definition": {
+    "name": "VB MOD",
+    "icon": {
+      "value": "CUSTOM:FeroCore"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 0,
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.NETHER_STAR"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:NetherStarDust"
+    },
+    "smeltingXPReward": 1.0,
+    "smeltingRetstackSize": 9,
+    "name": "netherstardustrecipe",
+    "namespace": "mod"
+  }
+}

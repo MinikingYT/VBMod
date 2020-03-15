@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vb_mod:blocks/vbcraftingunder",
+    "up": "vb_mod:blocks/vbcraftingupper",
+    "north": "vb_mod:blocks/vbcraftingfront",
+    "east": "vb_mod:blocks/craftingtableside1",
+    "south": "vb_mod:blocks/craftingtableside1",
+    "west": "vb_mod:blocks/vbcraftingfront",
+    "particle": "vb_mod:blocks/vbcraftingunder"
+  }
+}

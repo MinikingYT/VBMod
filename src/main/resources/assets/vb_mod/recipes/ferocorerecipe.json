@@ -1,0 +1,42 @@
+{
+  "group": "vb_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vb_mod:netherstardust"
+    },
+    "1": {
+      "item": "vb_mod:ferostariumoreblock"
+    },
+    "2": {
+      "item": "vb_mod:netherstardust"
+    },
+    "3": {
+      "item": "vb_mod:ferostariumoreblock"
+    },
+    "4": {
+      "item": "vb_mod:ferocorecase"
+    },
+    "5": {
+      "item": "vb_mod:ferostariumoreblock"
+    },
+    "6": {
+      "item": "vb_mod:netherstardust"
+    },
+    "7": {
+      "item": "vb_mod:ferostariumoreblock"
+    },
+    "8": {
+      "item": "vb_mod:netherstardust"
+    }
+  },
+  "result": {
+    "item": "vb_mod:ferocore",
+    "count": 1
+  }
+}

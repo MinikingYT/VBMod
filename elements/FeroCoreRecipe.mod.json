@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:FeroCore"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:NetherStarDust"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:NetherStarDust"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:FeroCoreCase"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:NetherStarDust"
+      },
+      {
+        "value": "CUSTOM:FeroStariumOreBlock"
+      },
+      {
+        "value": "CUSTOM:NetherStarDust"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "ferocorerecipe",
+    "namespace": "mod"
+  }
+}

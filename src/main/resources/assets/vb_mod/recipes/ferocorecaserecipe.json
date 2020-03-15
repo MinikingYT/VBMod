@@ -1,0 +1,39 @@
+{
+  "group": "vb_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_bars"
+    },
+    "1": {
+      "item": "minecraft:coal_block"
+    },
+    "2": {
+      "item": "minecraft:iron_bars"
+    },
+    "3": {
+      "item": "minecraft:coal_block"
+    },
+    "5": {
+      "item": "minecraft:coal_block"
+    },
+    "6": {
+      "item": "minecraft:iron_bars"
+    },
+    "7": {
+      "item": "minecraft:coal_block"
+    },
+    "8": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "vb_mod:ferocorecase",
+    "count": 1
+  }
+}

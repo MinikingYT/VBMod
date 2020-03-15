@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShinyChain"
+    },
+    "recipeSlots": [
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "CUSTOM:ShinyBlock"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "CUSTOM:ShinyBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ShinyBlock"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "CUSTOM:ShinyBlock"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "shinychainrecipe",
+    "namespace": "mod"
+  }
+}

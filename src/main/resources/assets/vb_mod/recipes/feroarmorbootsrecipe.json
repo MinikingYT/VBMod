@@ -1,0 +1,26 @@
+{
+  "group": "vb_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "vb_mod:ferostariumoreblock"
+    },
+    "2": {
+      "item": "vb_mod:ferostariumoreblock"
+    },
+    "3": {
+      "item": "vb_mod:ferostariumoreblock"
+    },
+    "5": {
+      "item": "vb_mod:ferostariumoreblock"
+    }
+  },
+  "result": {
+    "item": "vb_mod:feroarmorboots",
+    "count": 1
+  }
+}

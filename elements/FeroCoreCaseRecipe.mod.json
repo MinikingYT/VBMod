@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:FeroCoreCase"
+    },
+    "recipeSlots": [
+      {
+        "value": "Blocks.IRON_BARS"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.IRON_BARS"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.IRON_BARS"
+      },
+      {
+        "value": "Blocks.COAL_BLOCK"
+      },
+      {
+        "value": "Blocks.IRON_BARS"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "ferocorecaserecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "vb_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone"
+    },
+    "1": {
+      "item": "minecraft:gold_block"
+    },
+    "2": {
+      "item": "minecraft:glowstone"
+    },
+    "3": {
+      "item": "minecraft:gold_block"
+    },
+    "4": {
+      "item": "vb_mod:netherstardust"
+    },
+    "5": {
+      "item": "minecraft:gold_block"
+    },
+    "6": {
+      "item": "minecraft:glowstone"
+    },
+    "7": {
+      "item": "minecraft:gold_block"
+    },
+    "8": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "vb_mod:shinyblock",
+    "count": 1
+  }
+}

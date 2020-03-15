@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:FeroChain"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ShinyChain"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ShinyChain"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NecklessPin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "ferochainrecipe",
+    "namespace": "mod"
+  }
+}

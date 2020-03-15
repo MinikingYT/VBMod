@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "jhh_head",
+    "enableBody": true,
+    "textureBody": "jhh_body",
+    "enableLeggings": true,
+    "textureLeggings": "feroleggins",
+    "enableBoots": true,
+    "textureBoots": "feroboots",
+    "creativeTab": {
+      "value": "CUSTOM:VBMODTAB"
+    },
+    "armorTextureFile": "fero_",
+    "helmetName": "Fero Cap",
+    "bodyName": "Fero Chestplate",
+    "leggingsName": "Fero Leggings",
+    "bootsName": "Fero Nikes",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 105,
+    "damageValueHelmet": 14,
+    "damageValueBody": 35,
+    "damageValueLeggings": 42,
+    "damageValueBoots": 14,
+    "enchantability": 63,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

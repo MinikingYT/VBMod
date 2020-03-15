@@ -1,0 +1,42 @@
+{
+  "group": "vb_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vb_mod:ferostariumdust"
+    },
+    "1": {
+      "item": "vb_mod:ferostariumdust"
+    },
+    "2": {
+      "item": "vb_mod:ferostariumdust"
+    },
+    "3": {
+      "item": "vb_mod:ferostariumdust"
+    },
+    "4": {
+      "item": "vb_mod:ferostariumdust"
+    },
+    "5": {
+      "item": "vb_mod:ferostariumdust"
+    },
+    "6": {
+      "item": "vb_mod:ferostariumdust"
+    },
+    "7": {
+      "item": "vb_mod:ferostariumdust"
+    },
+    "8": {
+      "item": "vb_mod:ferostariumdust"
+    }
+  },
+  "result": {
+    "item": "vb_mod:ferostariumoreblock",
+    "count": 1
+  }
+}
